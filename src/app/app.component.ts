@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
+import { Comp1Component } from './comp1';
 
 @Component({
-moduleId:module.id,
+  moduleId: module.id,
   selector: 'app-root',
 /**  templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']*/
   template: `
   <h1>Inline Template</h1>
-  <p> Another Line</p>
+  <app-comp1></app-comp1>
   `,
   styles:[`
   	h1{
