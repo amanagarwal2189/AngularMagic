@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Comp1Component } from './comp1';
+import { Comp1Component, Comp2Component } from './comp1';
 
 @Component({
   moduleId: module.id,
@@ -9,6 +9,18 @@ import { Comp1Component } from './comp1';
   template: `
   <h1>Inline Template</h1>
   <app-comp1></app-comp1>
+  <app-comp2>
+      <div>
+          <h1>Hello there</h1>
+          <p> You got it </p>
+      </div>
+  </app-comp2>
+  <app-comp2>
+      <div>
+          <h1>Yet another comp</h1>
+          <p> You got it here too!! </p>
+      </div>
+  </app-comp2>
   `,
   styles:[`
   	h1{
