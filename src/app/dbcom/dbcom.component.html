@@ -4,9 +4,14 @@
 <hr>
 <h1>Propoertybinding</h1>
 Type1: <input type="text" name="vien" [value]=stringInterpolation>
-Type2: <input type="text" name="vien" [value]="stringInterpolation">
+Type2: <input type="text" name="vien2" [value]="stringInterpolation">
 
-<p [ngClass] = "{}">this is my yrpe</p>
+<p [ngClass] = "{}">this is my type</p>
 
-<p [ngClass] = "{redborder:true}">Is this in stylr</p>
+<p [ngClass] = "{redBorder:onTest()}">Is this in Class</p>
 
+
+<p [ngStyle] = "{color:'green'}">this is my Style</p>
+	
+<h3>Custome Property Binding</h3>
+<app-cust-prop-bind [result] = 100></app-cust-prop-bind>

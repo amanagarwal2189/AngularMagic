@@ -8,4 +8,11 @@ import { Component } from '@angular/core';
 export class DbcomComponent {
 	stringInterpolation = "Trying string interpolation";
 	numInterpolation = 2;
+
+	onTest(){
+		return true;
+	}
+
+
 }
+

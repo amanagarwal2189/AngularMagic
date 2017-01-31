@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Comp1Component, Comp2Component } from './comp1';
 import { DbcomComponent } from './dbcom';
+import { EventbinderComponent } from './eventbinder';
 
 @Component({
   moduleId: module.id,
@@ -25,6 +26,9 @@ import { DbcomComponent } from './dbcom';
   <app-dbcom>
 
   </app-dbcom>
+
+  <app-eventbinder>
+  </app-eventbinder>
   `,
   styles:[`
   	h1{
