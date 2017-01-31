@@ -1,3 +1,12 @@
 <p>
   {{stringInterpolation}} | {{numInterpolation}}
 </p>
+<hr>
+<h1>Propoertybinding</h1>
+Type1: <input type="text" name="vien" [value]=stringInterpolation>
+Type2: <input type="text" name="vien" [value]="stringInterpolation">
+
+<p [ngClass] = "{}">this is my yrpe</p>
+
+<p [ngClass] = "{redborder:true}">Is this in stylr</p>
+
