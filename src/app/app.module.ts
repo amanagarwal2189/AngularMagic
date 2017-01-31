@@ -10,6 +10,7 @@ import { DbcomComponent } from './dbcom/dbcom.component';
 import { CustPropBindComponent } from './dbcom/cust-prop-bind.component';
 import { EventbinderComponent } from './eventbinder/eventbinder.component';
 import { CustEventComponent } from './eventbinder/cust-event.component';
+import { CustEvent2Component } from './eventbinder/cust-event2.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CustEventComponent } from './eventbinder/cust-event.component';
     DbcomComponent,
     CustPropBindComponent,
     EventbinderComponent,
-    CustEventComponent
+    CustEventComponent,
+    CustEvent2Component
   ],
   imports: [
     BrowserModule,

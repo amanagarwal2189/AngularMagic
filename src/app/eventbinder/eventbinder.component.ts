@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
 	  moduleId: module.id,
@@ -7,8 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./eventbinder.component.css']
 })
 export class EventbinderComponent{
-
 	onClicked(){
 		alert("Raising that the button was clicked");
 	}
+	
+
+  //from CustEventComponent
+  onCustClicked(value:string){
+      alert(value);
+  }
 }
